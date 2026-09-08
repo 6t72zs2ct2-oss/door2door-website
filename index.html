@@ -297,6 +297,22 @@ footer a { color:#20262d !important; }
 .cta .ey,.cta .eyebrow{color:#e21d25 !important}
 .cta a.btn{color:#ffffff !important;-webkit-text-fill-color:#ffffff !important}
 </style>
+
+<style>
+/* Final readability fix: language switch must remain high-contrast on the white header. */
+.lang-switch{
+  color:#111111 !important;
+  background:#ffffff !important;
+  border:1.5px solid #222222 !important;
+  opacity:1 !important;
+  text-shadow:none !important;
+  -webkit-text-fill-color:#111111 !important;
+}
+.lang-switch:hover{
+  color:#111111 !important;
+  background:#f7f7f7 !important;
+}
+</style>
 </head>
 <body>
 <header>
@@ -308,7 +324,7 @@ footer a { color:#20262d !important; }
       <a href="#area">Service Area</a>
       <a href="#faq">FAQ</a>
     </nav>
-    <div style="display:flex;align-items:center;gap:8px"><a href="vi.html" style="font-size:12px;color:#aab2bd;border:1px solid #29303a;border-radius:999px;padding:7px 10px">Tiếng Việt</a><a class="btn primary coming-soon-btn" href="#coming-soon">✨ COMING SOON</a></div>
+    <div style="display:flex;align-items:center;gap:8px"><a class="lang-switch" href="vi.html">Tiếng Việt</a><a class="btn primary coming-soon-btn" href="#coming-soon">✨ COMING SOON</a></div>
   </div>
 </header>
 
