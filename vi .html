@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="vi-VN">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Door2Door Detailing — dịch vụ chăm sóc xe lưu động chuyên nghiệp.">
+<title>Door2Door Detailing | Dịch Vụ Chăm Sóc Xe Lưu Động</title>
+<style>
+:root{--bg:#080a0d;--s:#12171c;--s2:#171d24;--t:#f6f7f9;--m:#adb5c0;--l:#2b333d;--blue:#4da3ff;--max:1120px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 85% -10%,#173a5a 0,transparent 30%),var(--bg);color:var(--t);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;line-height:1.55}a{color:inherit;text-decoration:none}.c{width:min(calc(100% - 32px),var(--max));margin:auto}
+header{position:sticky;top:0;z-index:20;background:rgba(8,10,13,.9);backdrop-filter:blur(16px);border-bottom:1px solid var(--l)}.nav{height:68px;display:flex;justify-content:space-between;align-items:center;gap:10px}.logo{font-size:20px;font-weight:900}.logo span{font-weight:500;color:var(--m)}
+.navlinks{display:none;gap:20px;color:var(--m);font-size:13px}.navlinks a:hover{color:#fff}.tools{display:flex;gap:7px;align-items:center}.pill{border:1px solid var(--l);padding:9px 11px;border-radius:10px;color:#e9edf1;font-weight:800;font-size:12px}.book{background:#f4f6f8;color:#080a0d;border-color:#f4f6f8}
+.hero{padding:72px 0 54px}.ey{font-size:11px;letter-spacing:1.7px;color:#9fa8b3;font-weight:900;text-transform:uppercase}.badge{display:inline-block;border:1px solid #30465b;border-radius:999px;padding:6px 10px;color:#bcdcff;font-size:11px;font-weight:900;margin-bottom:16px}.hero h1{font-size:clamp(42px,10vw,74px);line-height:1;letter-spacing:-3px;margin:10px 0 17px;max-width:850px}.hero p{color:var(--m);font-size:18px;max-width:720px}.actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:24px}.btn{display:inline-flex;justify-content:center;padding:12px 17px;border-radius:12px;border:1px solid var(--l);font-weight:900}.primary{background:#f4f6f8;color:#080a0d;border-color:#f4f6f8}.blue{background:var(--blue);color:#06111c;border-color:var(--blue)}
+.section{padding:62px 0}.head{margin-bottom:27px}.head h2{font-size:clamp(30px,6vw,45px);line-height:1.05;letter-spacing:-1.5px;margin:7px 0}.head p{color:var(--m);max-width:720px}.grid{display:grid;gap:14px}.cards{grid-template-columns:1fr}.card{background:linear-gradient(145deg,var(--s2),#0f1317);border:1px solid var(--l);border-radius:18px;padding:20px}.card h3{margin:0;font-size:20px}.sub{color:var(--m);font-size:13px}.prices{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin:15px 0}.prices div{background:#0b0f13;border:1px solid #252c35;border-radius:9px;text-align:center;padding:8px 4px}.prices strong{display:block;font-size:16px}.prices span{display:block;color:#8f99a5;font-size:9px;line-height:1.1}.card ul{padding-left:18px;color:#dce1e6;font-size:14px}.card li{margin:6px 0}.correction-card{background:linear-gradient(145deg,rgba(19,39,53,.98),rgba(9,17,24,.98));box-shadow:inset 0 1px 0 rgba(77,225,255,.08)}
+.popular{border-color:#4d718e;box-shadow:0 0 0 1px rgba(77,163,255,.06)}.label{display:inline-block;color:#9fd1ff;border:1px solid #3e6382;border-radius:999px;padding:4px 7px;font-size:9px;font-weight:900;letter-spacing:1px;margin-bottom:12px}.addons{grid-template-columns:1fr 1fr}.addon{display:flex;justify-content:space-between;gap:10px}.addon span{font-weight:900;color:#9fd1ff;white-space:nowrap}.area{grid-template-columns:1fr}.area .card strong{font-size:24px}.muted{color:var(--m)}.faq{border-top:1px solid var(--l)}details{border-bottom:1px solid var(--l);padding:16px 0}summary{cursor:pointer;font-weight:800;display:flex;justify-content:space-between;gap:12px}summary:after{content:"+";color:#8e98a4}details[open] summary:after{content:"−"}details p{color:var(--m);font-size:14px}.group{margin-bottom:27px}.group h3{font-size:17px;margin:0 0 8px}.cta{text-align:center;border:1px solid #35516b;background:linear-gradient(135deg,#142231,#0d1217);border-radius:22px;padding:38px 20px}.cta p{color:var(--m)}footer{border-top:1px solid var(--l);padding:30px 0 40px;color:var(--m);font-size:13px}
+@media(min-width:700px){.navlinks{display:flex}.hero{padding:105px 0 75px}.cards{grid-template-columns:repeat(2,1fr)}.cards .card:last-child{grid-column:1/-1}.addons{grid-template-columns:repeat(3,1fr)}.area{grid-template-columns:repeat(3,1fr)}}@media(min-width:980px){.cards{grid-template-columns:repeat(3,1fr)}.cards .card:last-child{grid-column:auto}}
+
+/* Catchy premium refresh */
+:root{
+  --bg:#070b10;--surface:#0f1720;--surface2:#151f2a;--surface3:#0b1219;
+  --text:#f7fbff;--muted:#aebbc8;--line:#263544;
+  --blue:#3da5ff;--cyan:#4de1ff;--mint:#62e6c2;--warm:#ffc857;
+  --max:1160px;--radius:20px;
+}
+body{
+  background:
+    radial-gradient(circle at 8% 0%,rgba(61,165,255,.18),transparent 27%),
+    radial-gradient(circle at 92% 10%,rgba(77,225,255,.10),transparent 25%),
+    var(--bg);
+}
+header{background:rgba(7,11,16,.82);border-bottom:1px solid rgba(77,225,255,.13)}
+.logo span{color:#8fa5b8}
+.navlinks a:hover{color:#fff}
+.btn.primary{
+  background:linear-gradient(135deg,var(--blue),var(--cyan));
+  color:#031019;border-color:transparent;
+  box-shadow:0 10px 34px rgba(61,165,255,.25)
+}
+.btn.primary:hover{box-shadow:0 14px 42px rgba(77,225,255,.30)}
+.hero{
+  padding:82px 0 58px;
+  background:linear-gradient(180deg,rgba(61,165,255,.035),transparent 55%)
+}
+.hero:before{
+  border-color:rgba(77,225,255,.13);
+  box-shadow:0 0 0 80px rgba(61,165,255,.025),0 0 0 160px rgba(77,225,255,.018)
+}
+.badge{
+  border-color:rgba(77,225,255,.30);
+  background:rgba(61,165,255,.07);
+  color:#bdeaff
+}
+.dot{background:var(--cyan);box-shadow:0 0 16px rgba(77,225,255,.85)}
+h1{
+  background:linear-gradient(100deg,#fff 0%,#dff5ff 48%,#63d8ff 100%);
+  -webkit-background-clip:text;background-clip:text;color:transparent
+}
+.hero p{color:#aebdca}
+.stat{
+  border-color:#263b4c;
+  background:linear-gradient(145deg,rgba(21,31,42,.90),rgba(10,16,22,.82))
+}
+.stat strong{color:#f5fbff}
+.stat span{color:#91a5b5}
+.eyebrow{color:#69cfff}
+.section-head p{color:#aebdca}
+.card{
+  background:linear-gradient(145deg,rgba(21,31,42,.98),rgba(10,16,22,.98));
+  border-color:#263544
+}
+.card:hover{border-color:#3b6684;transform:translateY(-2px)}
+.service-icon{
+  border:1px solid rgba(77,225,255,.25);
+  background:linear-gradient(145deg,rgba(61,165,255,.13),rgba(77,225,255,.05));
+  color:#71dfff
+}
+.prices div{
+  background:#091119;border-color:#233746
+}
+.prices strong{color:#f6fbff}
+.prices span{color:#8297a9}
+.correction-card{background:linear-gradient(145deg,rgba(19,39,53,.98),rgba(9,17,24,.98));box-shadow:inset 0 1px 0 rgba(77,225,255,.08)}
+.popular{
+  border-color:rgba(255,200,87,.55);
+  box-shadow:0 0 0 1px rgba(255,200,87,.07),0 20px 60px rgba(0,0,0,.30)
+}
+.popular-label{
+  border-color:rgba(255,200,87,.55);
+  background:rgba(255,200,87,.08);
+  color:#ffd76e
+}
+.addon{transition:.2s}
+.addon:hover{border-color:rgba(77,225,255,.35)}
+.addon span{color:#70dcff}
+.area-card:after{border-color:rgba(77,225,255,.16)}
+.area-card strong{color:#f6fbff}
+.notice{
+  border-color:rgba(77,225,255,.24);
+  background:rgba(61,165,255,.055)
+}
+.step:before{
+  border-color:rgba(77,225,255,.35);
+  background:rgba(61,165,255,.08);
+  color:#70dcff
+}
+details{border-color:#263544}
+summary:after{color:#65d9ff}
+.cta{
+  background:
+    radial-gradient(circle at 20% 10%,rgba(77,225,255,.14),transparent 34%),
+    linear-gradient(135deg,#172532,#0a1118);
+  border-color:#2d536d;
+  box-shadow:0 20px 70px rgba(0,0,0,.25)
+}
+footer{border-color:#263544}
+.prep-notice{
+  border:1px solid rgba(255,200,87,.58);
+  background:linear-gradient(135deg,rgba(255,200,87,.11),rgba(255,200,87,.035));
+  box-shadow:0 0 0 1px rgba(255,200,87,.04),0 12px 34px rgba(0,0,0,.16);
+  color:#dce4ec;position:relative;overflow:hidden;
+}
+.prep-notice:before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--warm);box-shadow:0 0 18px rgba(255,200,87,.35)}
+.prep-title{display:flex;align-items:center;gap:9px;color:#ffd76e;font-size:12px;letter-spacing:1.2px;margin-bottom:8px}
+.prep-icon{display:grid;place-items:center;width:24px;height:24px;border-radius:8px;background:rgba(255,200,87,.14);border:1px solid rgba(255,200,87,.45);font-size:14px;color:#ffd76e}
+
+
+.quick-strip{border-top:1px solid rgba(77,225,255,.10);border-bottom:1px solid rgba(77,225,255,.10);background:linear-gradient(90deg,rgba(61,165,255,.055),rgba(77,225,255,.025),rgba(98,230,194,.045))}
+.quick-grid{display:grid;grid-template-columns:1fr;gap:1px}
+.quick-grid>div{padding:18px 4px;display:grid;grid-template-columns:36px 1fr;column-gap:10px;align-items:center}
+.quick-icon{grid-row:1/3;width:36px;height:36px;border-radius:11px;display:grid;place-items:center;background:rgba(61,165,255,.10);border:1px solid rgba(77,225,255,.22);color:#71dfff}
+.quick-grid strong{font-size:13px}
+.quick-grid small{color:#8fa4b5;font-size:11px}
+@media(min-width:700px){.quick-grid{grid-template-columns:repeat(3,1fr);gap:0}.quick-grid>div{padding:18px 12px}.quick-grid>div+div{border-left:1px solid rgba(77,225,255,.10)}}
+
+</style>
+<style>
+.coming-soon-btn{position:relative;overflow:hidden;text-decoration:none!important}
+.coming-soon-btn::after{content:"";position:absolute;top:0;left:-120%;width:60%;height:100%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.28),transparent);transform:skewX(-20deg);animation:comingSoonShine 3.2s ease-in-out infinite}
+@keyframes comingSoonShine{0%,55%{left:-120%}75%,100%{left:150%}}
+.coming-soon-banner{max-width:1100px;margin:24px auto 8px;padding:18px 22px;border:1px solid rgba(255,196,71,.55);border-radius:18px;background:linear-gradient(135deg,rgba(255,196,71,.12),rgba(15,25,38,.92));box-shadow:0 10px 30px rgba(0,0,0,.18);display:flex;align-items:center;gap:14px}
+.coming-soon-icon{width:42px;height:42px;min-width:42px;border-radius:12px;display:grid;place-items:center;background:rgba(255,196,71,.16);font-size:22px}
+.coming-soon-banner strong{display:block;color:#ffd166;font-size:17px;margin-bottom:3px}
+.coming-soon-banner span{display:block;color:#b9c3d0;font-size:13px;line-height:1.5}
+@media(max-width:600px){.coming-soon-banner{margin:18px 14px 6px;padding:15px 16px}.coming-soon-banner strong{font-size:15px}.coming-soon-banner span{font-size:12px}}
+</style>
+</head>
+<body>
+<header><div class="c nav"><a class="logo" href="https://door2door-detailing.com/">Door2Door <span>Detailing</span></a><nav class="navlinks"><a href="#services">Dịch vụ</a><a href="#addons">Dịch Vụ Bổ Sung</a><a href="#area">Khu vực</a><a href="#faq">FAQ</a></nav><div class="tools"><a class="pill" href="https://door2door-detailing.com/">English</a><a class="pill book coming-soon-btn" href="#coming-soon">✨ Sắp ra mắt</a></div></div></header>
+<main>
+<div id="coming-soon" class="coming-soon-banner"><div class="coming-soon-icon">✨</div><div><strong>Một điều thú vị sắp ra mắt!</strong><span>Hệ thống đặt lịch trực tuyến đang được hoàn thiện để mang đến cho bạn trải nghiệm Door2Door thật đơn giản và thuận tiện.</span></div></div>
+<section class="hero"><div class="c"><div class="badge">DỊCH VỤ CHĂM SÓC XE LƯU ĐỘNG</div><div class="ey">Dịch vụ chuyên nghiệp, tận nơi</div><h1>Xe sạch đẹp.<br>Phục vụ tận nơi.</h1><p>Door2Door Detailing mang dịch vụ chăm sóc xe chuyên nghiệp đến tận nhà, nơi làm việc hoặc địa điểm phù hợp của bạn. Chúng tôi tự chuẩn bị nước, nguồn điện, thiết bị và các sản phẩm chăm sóc xe cần thiết.</p><div class="actions"><a class="btn blue coming-soon-btn" href="#coming-soon">✨ ĐẶT LỊCH SẮP RA MẮT</a><a class="btn" href="#services">Xem Dịch Vụ</a></div></div><div class="bilingual-note">Phục vụ bằng tiếng Việt • Đặt lịch trực tuyến đơn giản • Không cần tạo tài khoản</div></div></section>
+<section class="quick-strip"><div class="c quick-grid">
+  <div><span class="quick-icon">⚡</span><strong>Chúng Tôi Đến Tận Nơi</strong><small>Nhà • Nơi làm việc • Địa điểm phù hợp</small></div>
+  <div><span class="quick-icon">💧</span><strong>Tự Mang Nước & Điện</strong><small>Bạn không cần chuẩn bị</small></div>
+  <div><span class="quick-icon">✦</span><strong>Chăm Sóc Chuyên Nghiệp</strong><small>Cẩn thận từ rửa xe đến bảo vệ sơn</small></div>
+</div></section>
+
+<section class="section" id="services"><div class="c"><div class="head"><div class="ey">Dịch vụ & giá</div><h2>Chọn gói dịch vụ phù hợp với chiếc xe của bạn.</h2><p>Giá dịch vụ được tính theo kích thước xe. Bạn có thể chọn gói dịch vụ, dịch vụ bổ sung, ngày và giờ ngay trên trang đặt lịch.</p></div><div class="grid cards">
+<article class="card"><div class="service-top"><h3>Rửa Xe Cơ Bản</h3><div class="service-icon" aria-hidden="true">↗</div></div><div class="sub">Rửa và chăm sóc ngoại thất</div><div class="prices"><div><strong>$50</strong><span>SEDAN</span></div><div><strong>$60</strong><span>SUV</span></div><div><strong>$70</strong><span>TRUCK / MINIVAN / 3 HÀNG GHẾ</span></div></div><ul><li>Rửa sơ bộ & phun bọt tuyết</li><li>Rửa xe bằng tay</li><li>Làm sạch mâm xe & lốp</li><li>Dưỡng lốp</li><li>Làm sạch kính & gương bên ngoài</li><li>Xả nước & lau khô</li></ul></article>
+<article class="card"><div class="service-top"><h3>Vệ Sinh Nội Thất</h3><div class="service-icon" aria-hidden="true">⌂</div></div><div class="sub">Làm sạch nội thất kỹ lưỡng</div><div class="prices"><div><strong>$60</strong><span>SEDAN</span></div><div><strong>$70</strong><span>SUV</span></div><div><strong>$80</strong><span>TRUCK / MINIVAN / 3 HÀNG GHẾ</span></div></div><ul><li>Hút bụi toàn bộ nội thất</li><li>Làm sạch táp-lô & khu vực điều khiển trung tâm</li><li>Làm sạch các tấm ốp cửa</li><li>Khay đựng cốc & các hộc chứa đồ</li><li>Làm sạch thảm sàn</li><li>Làm sạch kính & gương bên trong</li><li>Làm sạch các bề mặt nội thất</li></ul></article>
+<article class="card popular"><div class="label">PHỔ BIẾN NHẤT • TIẾT KIỆM $10</div><div class="service-top"><h3>Express Detail</h3><div class="service-icon" aria-hidden="true">★</div></div><div class="sub">Kết hợp rửa xe + vệ sinh nội thất</div><div class="prices"><div><strong>$100</strong><span>SEDAN</span></div><div><strong>$120</strong><span>SUV</span></div><div><strong>$140</strong><span>TRUCK / MINIVAN / 3 HÀNG GHẾ</span></div></div><ul><li>Tất cả dịch vụ của Rửa Xe Cơ Bản + Vệ Sinh Nội Thất</li><li>Bảo vệ UV cho táp-lô, vinyl & các bề mặt nhựa</li><li>Làm sạch khung và khe cửa</li><li>Hoàn thiện với độ bóng nhẹ</li></ul></article>
+<article class="card"><div class="service-top"><h3>Deluxe Detail</h3><div class="service-icon" aria-hidden="true">◆</div></div><div class="sub">Vệ sinh chuyên sâu + bảo vệ sơn</div><div class="prices"><div><strong>$165</strong><span>SEDAN</span></div><div><strong>$185</strong><span>SUV</span></div><div><strong>$205</strong><span>TRUCK / MINIVAN / 3 HÀNG GHẾ</span></div></div><ul><li>Bao gồm toàn bộ dịch vụ Express</li><li>Làm sạch nội thất chuyên sâu</li><li>Làm sạch & lau ghế</li><li>Giặt thảm & thảm sàn</li><li>Khử nhiễm bề mặt sơn</li><li>Phủ sealant & bảo vệ sơn</li></ul></article>
+<article class="card correction-card" style="border-color:#3b6684"><div class="service-top"><h3>Đánh Bóng Sơn 1 Bước</h3><div class="service-icon" aria-hidden="true">✦</div></div><div class="sub">Chỉ ngoại thất • Không bao gồm vệ sinh nội thất</div><div class="prices"><div><strong>$325</strong><span>SEDAN</span></div><div><strong>$375</strong><span>SUV</span></div><div><strong>$425</strong><span>TRUCK / MINIVAN / 3 HÀNG GHẾ</span></div></div><ul><li>Rửa xe bên ngoài & phun bọt tuyết</li><li>Làm sạch mâm xe & lốp</li><li>Dưỡng lốp</li><li>Làm sạch kính & gương bên ngoài</li><li>Khử nhiễm / chuẩn bị bề mặt sơn</li><li>Đánh bóng sơn bằng máy 1 bước</li><li>Phù hợp với các khuyết điểm nhẹ đến trung bình trên sơn</li></ul></article>
+</div></div></section>
+
+<section class="section" id="addons"><div class="c"><div class="head"><div class="ey">Dịch Vụ Bổ Sung</div><h2>Thêm các dịch vụ phù hợp với tình trạng xe của bạn.</h2><p>Đánh bóng sơn 1 bước chỉ có thể chọn làm dịch vụ bổ sung khi đặt Express Detail hoặc Deluxe Detail.</p></div><div class="grid addons">
+<div class="card addon"><strong>Loại bỏ lông thú cưng</strong><span>$45</span></div><div class="card addon"><strong>Giặt ghế</strong><span>$45</span></div><div class="card addon"><strong>Làm sạch & dưỡng da</strong><span>$45</span></div><div class="card addon"><strong>Giặt thảm</strong><span>$45</span></div><div class="card addon"><strong>Khử nhiễm sơn + Wax bằng tay</strong><span>$55</span></div><div class="card addon"><strong>Iron Decon</strong><span>$35</span></div><div class="card addon"><strong>Tẩy nhựa đường, côn trùng & wax</strong><span>$35</span></div><div class="card addon"><strong>Xử lý vết bẩn</strong><span>$45</span></div><div class="card addon"><strong>Phục hồi nhựa đen</strong><span>$45 / $50 / $55</span></div><div class="card addon"><strong>Phục hồi đèn pha</strong><span>$50</span></div><div class="card addon"><strong>Đánh bóng sơn 1 bước</strong><span>$165 / $185 / $205</span></div>
+</div></div></section>
+
+<section class="section" id="area"><div class="c"><div class="head"><div class="ey">Khu Vực Phục Vụ</div><h2>Chúng tôi đến tận nơi tận nơi.</h2><p>Phí di chuyển được tính dựa trên khoảng cách từ khu vực phục vụ của chúng tôi.</p></div><div class="grid area"><div class="card"><strong>0–20 miles</strong><p class="muted">Miễn phí di chuyển</p></div><div class="card"><strong>20–30 miles</strong><p class="muted">+ $20 phí di chuyển</p></div><div class="card"><strong>30–40 miles</strong><p class="muted">+ $30 phí di chuyển</p></div></div><div class="card" style="margin-top:16px"><strong>Trên 40 miles:</strong> Vui lòng liên hệ để kiểm tra khả năng phục vụ và báo giá. Có thể phát sinh phụ phí đối với xe quá bẩn, vết bẩn nặng, nhiều lông thú cưng hoặc tình trạng cần nhiều thời gian xử lý hơn.</div></div></section>
+
+<section class="section"><div class="c"><div class="head"><div class="ey">Quy Trình Dịch Vụ</div><h2>Đơn giản và thuận tiện từ đầu đến cuối.</h2></div><div class="grid cards"><div class="card"><h3>1. Đặt lịch trực tuyến</h3><p class="muted">Chọn loại xe, gói dịch vụ, dịch vụ bổ sung, ngày và giờ.</p></div><div class="card"><h3>2. Chúng tôi đến tận nơi</h3><p class="muted">Chúng tôi mang theo nước, nguồn điện, thiết bị và sản phẩm cần thiết đến địa điểm của bạn.</p></div><div class="card"><h3>3. Tận hưởng chiếc xe sạch đẹp</h3><p class="muted">Bạn có thể tiếp tục công việc hoặc sinh hoạt trong khi chúng tôi chăm sóc chiếc xe của bạn.</p></div></div></div></section>
+
+<section class="section"><div class="c"><div class="head"><div class="ey">Trước Khi Đến</div><h2>Một chút chuẩn bị giúp chúng tôi làm việc tốt hơn.</h2></div><div class="notice prep-notice"><div class="prep-title"><span class="prep-icon">⚠</span><strong>LƯU Ý</strong></div><div>Vui lòng lấy hết đồ cá nhân và rác ra khỏi xe trước lịch hẹn. Nếu cần chúng tôi dọn một lượng rác hoặc đồ cá nhân đáng kể, có thể áp dụng <strong>phụ phí $15–$20</strong>.</div></div></div></section>
+
+<section class="section" id="faq"><div class="c"><div class="head"><div class="ey">Câu Hỏi Thường Gặp</div><h2>Những điều bạn nên biết trước khi đặt lịch.</h2></div>
+<div class="group"><h3>Đặt Lịch & Cuộc Hẹn</h3><div class="faq"><details><summary>Tôi đặt lịch như thế nào?</summary><p>Bạn chọn loại xe, gói dịch vụ, dịch vụ bổ sung, ngày và giờ trên trang đặt lịch. Sau đó nhập thông tin liên hệ và thông tin xe, kiểm tra lại và gửi yêu cầu. Chúng tôi sẽ xem xét và xác nhận lịch hẹn.</p></details><details><summary>Tôi có cần ở nhà khi làm xe không?</summary><p>Không nhất thiết. Chỉ cần chúng tôi có thể tiếp cận xe an toàn tại địa điểm phù hợp. Chúng tôi sẽ liên hệ với bạn nếu cần thêm thông tin.</p></details><details><summary>Thời gian làm xe mất bao lâu?</summary><p>Thời gian thực hiện tùy theo gói dịch vụ, kích thước và tình trạng xe. Xe lớn hoặc quá bẩn có thể cần thêm thời gian.</p></details></div></div>
+<div class="group"><h3>Dịch Vụ Lưu Động</h3><div class="faq"><details><summary>Tôi có cần cung cấp nước không?</summary><p><strong>Không.</strong> Door2Door Detailing thường tự mang nước và thiết bị. Trong trường hợp thiết bị gặp sự cố hoặc khẩn cấp, chúng tôi có thể xin sử dụng nguồn nước tạm thời.</p></details><details><summary>Tôi có cần cung cấp điện không?</summary><p><strong>Không.</strong> Chúng tôi thường tự mang thiết bị điện. Trong trường hợp thiết bị gặp sự cố hoặc khẩn cấp, chúng tôi có thể xin sử dụng ổ điện tiêu chuẩn làm phương án dự phòng.</p></details><details><summary>Có phí di chuyển không?</summary><p>0–20 miles: miễn phí; 20–30 miles: +$20; 30–40 miles: +$30. Trên 40 miles, vui lòng liên hệ để kiểm tra khả năng phục vụ và báo giá.</p></details></div></div>
+<div class="group"><h3>Chuẩn Bị Xe</h3><div class="faq"><details><summary>Tôi nên chuẩn bị gì trước khi các bạn đến?</summary><p>Vui lòng lấy đồ cá nhân và rác ra khỏi xe trước cuộc hẹn. Việc này giúp chúng tôi tập trung vào công việc làm sạch xe. Nếu cần chúng tôi dọn một lượng đáng kể rác hoặc đồ cá nhân, có thể áp dụng phụ phí $15–$20.</p></details><details><summary>Tôi có cần rửa hoặc hút bụi xe trước không?</summary><p><strong>Không.</strong> Đó chính là việc bạn thuê chúng tôi thực hiện. Chỉ cần lấy đồ cá nhân và rác ra khỏi xe và đảm bảo chúng tôi có thể tiếp cận xe an toàn.</p></details></div></div>
+<div class="group"><h3>Làm Sạch & Kết Quả</h3><div class="faq"><details><summary>Các bạn có thể loại bỏ lông thú cưng và xử lý vết bẩn nặng không?</summary><p><strong>Có.</strong> Chúng tôi có dịch vụ loại bỏ lông thú cưng, giặt ghế, giặt thảm và xử lý vết bẩn. Tuy nhiên, <strong>các vết bẩn sâu, lâu ngày hoặc vĩnh viễn có thể không loại bỏ hoàn toàn</strong>. Kết quả phụ thuộc vào loại vết bẩn, thời gian tồn tại và tình trạng cũng như chất liệu của bề mặt. Chúng tôi không thể đảm bảo loại bỏ 100% mọi vết bẩn, nhưng luôn cố gắng mang lại kết quả tốt nhất có thể.</p></details><details><summary>Các bạn có thể xử lý vết xước trên sơn không?</summary><p>Dịch vụ Đánh bóng sơn 1 bước có thể cải thiện nhiều khuyết điểm nhẹ đến trung bình trên bề mặt sơn. Kết quả phụ thuộc vào độ sâu và tình trạng sơn. Các vết xước sâu có thể không loại bỏ hoàn toàn.</p></details></div></div>
+<div class="group"><h3>Thanh Toán</h3><div class="faq"><details><summary>Tôi có thể thanh toán bằng những hình thức nào?</summary><p>Hiện tại chúng tôi nhận Cash, Zelle và Venmo.</p></details></div></div>
+</div></section>
+
+<section class="section"><div class="c"><div class="cta"><div class="ey">Sẵn Sàng Đặt Lịch?</div><h2>Hãy để chúng tôi chăm sóc chiếc xe của bạn.</h2><p>Chọn dịch vụ và thời gian thuận tiện cho bạn. Chúng tôi sẽ xem xét và xác nhận lịch hẹn.</p><a class="btn blue coming-soon-btn" href="#coming-soon">✨ ĐẶT LỊCH SẮP RA MẮT</a></div></div></section>
+</main>
+<footer><div class="c">Door2Door Detailing — Dịch vụ chăm sóc xe lưu động chuyên nghiệp<br><br>Cash • Zelle • Venmo</div></footer>
+</body></html>
