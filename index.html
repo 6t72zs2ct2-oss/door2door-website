@@ -313,6 +313,214 @@ footer a { color:#20262d !important; }
   background:#f7f7f7 !important;
 }
 </style>
+
+<style>
+/* Door2Door Rewards — simple, clear, protective */
+.rewards-section{background:#fbfbfc}
+.rewards-grid{grid-template-columns:1fr}
+.reward-card{position:relative;overflow:hidden}
+.reward-icon{width:42px;height:42px;border-radius:12px;display:grid;place-items:center;background:#fff5f5;border:1px solid #efb0b3;color:#d51b23;font-weight:900;margin-bottom:15px;font-size:15px}
+.reward-card h3{margin-bottom:8px}
+.reward-card p{color:#4f5862;margin:0 0 12px;font-size:14px}
+.reward-card strong{color:#171b20}
+.reward-note{display:block;color:#68727d;font-size:12px;line-height:1.45}
+.rewards-terms{margin-top:16px;padding:18px 20px;border:1px solid #e0e4e8;border-radius:16px;background:#fff;color:#5f6873;font-size:12px;line-height:1.55}
+.rewards-terms strong{display:block;color:#171b20;font-size:13px;margin-bottom:4px}
+.rewards-terms p{margin:0}
+@media(min-width:700px){.rewards-grid{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:760px){.navlinks{display:none}.tools{margin-left:auto}.nav{gap:8px}.logo{min-width:132px}.logo img{width:132px}}
+</style>
+
+
+<style>
+/* FINAL WEBSITE POLISH — clean white/red/black presentation */
+:root{
+  --brand:#d51b23;
+  --brand-dark:#b9151c;
+  --ink:#15181d;
+  --muted-ink:#5f6873;
+  --soft:#f7f8fa;
+  --line-light:#e1e5e9;
+}
+html{scroll-padding-top:86px}
+body{
+  background:#fff !important;
+  color:var(--ink) !important;
+}
+header{
+  background:rgba(255,255,255,.94) !important;
+  border-bottom:1px solid #e1e5e9 !important;
+  box-shadow:0 4px 18px rgba(17,24,39,.05);
+}
+.logo img{width:148px;max-height:52px}
+.navlinks a{color:#30363d !important}
+.navlinks a:hover{color:var(--brand) !important}
+.lang-switch{
+  color:#111318 !important;background:#fff !important;
+  border:1.5px solid #222 !important;
+}
+.btn.primary{
+  background:var(--brand) !important;
+  border-color:var(--brand) !important;
+  color:#fff !important;
+  box-shadow:0 8px 24px rgba(213,27,35,.16) !important;
+}
+.btn.primary:hover{background:var(--brand-dark) !important;transform:translateY(-1px)}
+.btn.secondary{
+  background:#fff !important;
+  color:#15181d !important;
+  border-color:#cfd4d9 !important;
+}
+.btn.secondary:hover{background:#f7f8fa !important;border-color:#aeb5bd !important}
+.hero{
+  background:linear-gradient(180deg,#fff 0%,#fff 70%,#fbfbfc 100%) !important;
+}
+.hero:before{border-color:rgba(213,27,35,.10) !important;box-shadow:0 0 0 80px rgba(213,27,35,.018),0 0 0 160px rgba(213,27,35,.010) !important}
+.hero-slogan,.eyebrow{color:var(--brand) !important}
+.badge{border-color:#d9dde2 !important;background:#fafbfc !important;color:#3d454d !important}
+.dot{background:var(--brand) !important;box-shadow:0 0 12px rgba(213,27,35,.28) !important}
+h1,h2,h3,.section-head h2,.faq-group h3,.card h3,.step h3{
+  color:var(--ink) !important;-webkit-text-fill-color:var(--ink) !important;background:none !important;
+}
+.hero h1{color:var(--ink) !important;-webkit-text-fill-color:var(--ink) !important}
+.hero p,.section-head p,.step p,details p,.card .sub,.muted{color:var(--muted-ink) !important}
+.hero-stats{max-width:620px}
+.stat,.card,.area-card{
+  background:#fff !important;
+  border-color:var(--line-light) !important;
+  box-shadow:0 8px 26px rgba(17,24,39,.055) !important;
+}
+.stat span,.prices span{color:#69737e !important}
+.stat strong,.prices strong,.card strong{color:var(--ink) !important}
+.card:hover{border-color:#cbd1d7 !important;transform:translateY(-2px)}
+.prices div{background:var(--soft) !important;border-color:#e0e4e8 !important}
+.card ul{color:#2d343b !important}
+.card li::marker{color:var(--brand) !important}
+.service-icon{background:#fff !important;border-color:#e0e4e8 !important;color:var(--brand) !important}
+.popular{
+  border-color:rgba(213,27,35,.42) !important;
+  box-shadow:0 0 0 1px rgba(213,27,35,.07),0 14px 34px rgba(17,24,39,.08) !important;
+}
+.popular-label{border-color:rgba(213,27,35,.38) !important;background:#fff5f5 !important;color:var(--brand) !important}
+.correction-card{background:#fff !important;box-shadow:0 8px 26px rgba(17,24,39,.055) !important}
+.addon span{color:var(--brand) !important}
+.area-card:after{border-color:rgba(213,27,35,.10) !important}
+.notice{background:#fafbfc !important;border-color:#d8dde2 !important;color:#5f6873 !important}
+.prep-notice{background:#fffaf0 !important;border-color:#e5c26a !important;color:#5f6873 !important}
+.prep-title{color:#9a6b00 !important}.prep-icon{color:#9a6b00 !important;border-color:#e5c26a !important;background:#fff3d4 !important}
+details{border-color:#e1e5e9 !important}summary{color:var(--ink) !important}summary:after{color:var(--brand) !important}
+.rewards-section{background:#fafbfc !important;border-top:1px solid #f0f1f3;border-bottom:1px solid #f0f1f3}
+.reward-icon{background:#fff5f5 !important;border-color:#efb0b3 !important;color:var(--brand) !important}
+.reward-card p{color:#4f5862 !important}.reward-note{color:#68727d !important}
+.rewards-terms{background:#fff !important;border-color:#e1e5e9 !important;color:#5f6873 !important}
+.rewards-terms strong{color:var(--ink) !important}
+.cta{
+  background:#171b20 !important;
+  border-color:#171b20 !important;
+  box-shadow:0 16px 42px rgba(17,24,39,.14) !important;
+}
+.cta h2{color:#fff !important;-webkit-text-fill-color:#fff !important}
+.cta p{color:#dce2e8 !important}
+.cta .ey,.cta .eyebrow{color:#ff6b70 !important}
+.cta .btn.primary{background:#fff !important;color:#171b20 !important;border-color:#fff !important}
+footer{background:#fff !important;border-color:#e1e5e9 !important;color:#5f6873 !important}
+footer a{color:#20262d !important}
+footer strong{color:#111318 !important}
+.coming-soon-banner{
+  background:#fffaf0 !important;border-color:#e5c26a !important;
+  box-shadow:0 6px 18px rgba(17,24,39,.05) !important;
+}
+.coming-soon-banner strong{color:#8a6100 !important}
+.coming-soon-banner span{color:#68727d !important}
+.quick-strip{background:#fafbfc !important;border-color:#eceef1 !important}
+.quick-grid strong{color:var(--ink) !important}.quick-grid small{color:#68727d !important}.quick-icon{color:var(--brand) !important}
+@media(max-width:760px){
+  .logo img{width:132px;max-height:48px}
+  .coming-soon-banner{margin-left:16px;margin-right:16px}
+  .hero{padding-top:62px !important}
+  .section{padding:56px 0 !important}
+  .prices span{font-size:8px !important}
+}
+</style>
+
+
+<style>
+/* FINAL HEADER LANGUAGE SWITCH FIX — high contrast, bold, single-line */
+.lang-switch,
+.lang-switch:visited,
+.lang-switch:hover,
+.lang-switch:focus,
+.lang-switch:active{
+  color:#000000 !important;
+  -webkit-text-fill-color:#000000 !important;
+  background:#ffffff !important;
+  border:2px solid #111111 !important;
+  font-weight:900 !important;
+  font-size:14px !important;
+  line-height:1 !important;
+  white-space:nowrap !important;
+  word-break:keep-all !important;
+  overflow-wrap:normal !important;
+  text-decoration:none !important;
+  display:inline-flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  flex:0 0 auto !important;
+  min-width:112px !important;
+  height:44px !important;
+  padding:0 14px !important;
+  box-sizing:border-box !important;
+  opacity:1 !important;
+  text-shadow:none !important;
+}
+@media(max-width:760px){
+  .lang-switch,
+  .lang-switch:visited,
+  .lang-switch:hover,
+  .lang-switch:focus,
+  .lang-switch:active{
+    min-width:104px !important;
+    height:42px !important;
+    padding:0 12px !important;
+    font-size:13px !important;
+    flex-shrink:0 !important;
+  }
+}
+</style>
+
+
+<style>
+/* Final desktop navigation — strong, clear, professional */
+@media (min-width:700px){
+  .navlinks{
+    display:flex !important;
+    align-items:center !important;
+    gap:28px !important;
+    color:#111111 !important;
+  }
+  .navlinks a{
+    color:#111111 !important;
+    font-size:16px !important;
+    font-weight:800 !important;
+    line-height:1.2 !important;
+    letter-spacing:0 !important;
+    text-decoration:none !important;
+    opacity:1 !important;
+  }
+  .navlinks a:hover{
+    color:#d51b23 !important;
+  }
+}
+</style>
+
+<style>
+/* Preparation notice — clean neutral styling with clear price emphasis */
+.prep-notice{position:relative;background:#f8f9fa !important;border:1px solid #d9dee4 !important;border-radius:16px !important;color:#4b5563 !important;box-shadow:0 8px 24px rgba(15,23,42,.06);overflow:hidden;}
+.prep-notice:before{background:#d71920 !important;box-shadow:none !important;}
+.prep-title{color:#111827 !important;font-weight:800 !important;letter-spacing:1.2px;}
+.prep-icon{color:#d71920 !important;border-color:#d9dee4 !important;background:#fff !important;}
+.prep-notice strong:last-child{color:#d71920 !important;font-weight:850 !important;}
+</style>
 </head>
 <body>
 <header>
@@ -321,6 +529,7 @@ footer a { color:#20262d !important; }
     <nav class="navlinks">
       <a href="#services">Services</a>
       <a href="#addons">Add-ons</a>
+      <a href="#rewards">Rewards</a>
       <a href="#area">Service Area</a>
       <a href="#faq">FAQ</a>
     </nav>
@@ -329,7 +538,7 @@ footer a { color:#20262d !important; }
 </header>
 
 <main>
-<div id="coming-soon" class="coming-soon-banner"><div class="coming-soon-icon">✨</div><div><strong>Something cool is coming soon.</strong><span>Online booking is almost ready. We’re getting everything set up so your Door2Door experience is smooth and easy.</span></div></div>
+<div id="coming-soon" class="coming-soon-banner"><div class="coming-soon-icon">✨</div><div><strong>Booking is coming soon.</strong><span>Our online booking page is almost ready. We’re making sure the Door2Door experience is simple and easy to use.</span></div></div>
 <section class="hero">
   <div class="container hero-inner">
     <div class="hero-copy"><div class="hero-slogan">WE COME TO YOU.</div>
@@ -411,6 +620,18 @@ footer a { color:#20262d !important; }
 </div>
 </section>
 
+<section class="section rewards-section" id="rewards">
+<div class="container">
+  <div class="section-head"><div class="eyebrow">Door2Door Rewards</div><h2>Keep your car clean. Get rewarded for coming back.</h2><p>Simple rewards for returning customers, referrals, and multiple vehicles at the same location.</p></div>
+  <div class="grid rewards-grid">
+    <article class="card reward-card"><div class="reward-icon">↻</div><h3>Maintenance Reward</h3><p>Complete <strong>3 Basic Washes</strong> and receive <strong>$10 OFF your next Express Detail.</strong></p><span class="reward-note">Built for regular maintenance customers.</span></article>
+    <article class="card reward-card"><div class="reward-icon">↗</div><h3>Refer a Friend</h3><p>Your friend receives <strong>$10 OFF their first service</strong>, and you receive <strong>$10 OFF your next service</strong> after their qualifying appointment is completed.</p><span class="reward-note">Referral must be a new Door2Door customer.</span></article>
+    <article class="card reward-card"><div class="reward-icon">2+</div><h3>Multi-Vehicle Savings</h3><p>Book <strong>2 vehicles at the same location</strong> and save <strong>$20 total.</strong> For 3 or more vehicles, save <strong>$10 off each additional vehicle</strong> after the first two.</p><span class="reward-note">Vehicles must be serviced at the same location during the same appointment.</span></article>
+  </div>
+  <div class="rewards-terms"><strong>Rewards &amp; Discount Terms</strong><p>Rewards and discounts apply only to qualifying services and cannot be combined with other promotions, offers, or discounts unless otherwise stated. Rewards are non-transferable and have no cash value. Only one referral reward may be earned per qualifying new customer. Door2Door Detailing reserves the right to modify, suspend, or discontinue the rewards program or any individual reward at any time. Additional terms or restrictions may apply.</p></div>
+</div>
+</section>
+
 <section class="section" id="area">
 <div class="container">
   <div class="section-head"><div class="eyebrow">Mobile Service Area</div><h2>Your driveway. Your workplace. Your time.</h2><p>Travel fees are based on the distance from our service area.</p></div>
@@ -478,7 +699,7 @@ footer a { color:#20262d !important; }
     <div class="faq-group">
       <h3>Cleaning & Results</h3>
       <div class="faq">
-        <details><summary>Can you remove pet hair and heavy stains?</summary><p><strong>Yes.</strong> Pet hair removal, seat shampoo, carpet shampoo, and spot treatments are available as add-on services. We use professional cleaning methods to achieve the best possible results. However, <strong>heavy, deep-set, or permanent stains may not be completely removable</strong>. Results depend on the type of stain, how long it has been present, and the condition and material of the surface. We cannot guarantee 100% stain removal, but we will always do our best to improve the appearance of the affected area.</p></details>
+        <details><summary>Can you remove pet hair and heavy stains?</summary><p><strong>Yes.</strong> Pet hair removal, seat shampoo, carpet shampoo, and spot treatments are available as add-on services. We use professional cleaning methods to achieve the best possible results. However, <strong>heavy, deep-set, or permanent stains may not be completely removable</strong>. Results depend on the type of stain, how long it has been present, and the condition and material of the surface. Complete stain removal is not always possible, but we will always do our best to improve the appearance of the affected area.</p></details>
         <details><summary>Can you remove scratches from my paint?</summary><p>Our <strong>1-Step Paint Correction</strong> can improve the appearance of many light-to-moderate paint imperfections. Results depend on the depth and condition of the paint. Deeper scratches may not be completely removable. The standalone 1-Step Paint Correction package is exterior only and does not include interior detailing.</p></details>
       </div>
     </div>
@@ -486,12 +707,6 @@ footer a { color:#20262d !important; }
       <h3>Payment</h3>
       <div class="faq">
         <details><summary>What payment methods do you accept?</summary><p>We currently accept Cash, Zelle, and Venmo.</p></details>
-      </div>
-    </div>
-    <div class="faq-group">
-      <h3>About Door2Door</h3>
-      <div class="faq">
-        <details><summary>What makes Door2Door Detailing different?</summary><p><strong>We bring the detailing to you.</strong> Instead of taking time out of your day to drive to a detailing shop and wait, Door2Door Detailing comes directly to your home, workplace, or another convenient location. We bring our own water, power, equipment, and professional detailing products, so you can go about your day while we take care of your vehicle.</p></details>
       </div>
     </div>
   </div>
@@ -504,7 +719,7 @@ footer a { color:#20262d !important; }
     <div class="eyebrow">Ready when you are</div>
     <h2>Let us take care of your car.</h2>
     <p style="color:var(--muted);max-width:650px;margin:0 auto 22px">Choose your service and appointment time online. We'll review your request and confirm your appointment.</p>
-    <a class="btn primary" href="https://booking.door2door-detailing.com/">Book Your Appointment</a>
+    <a class="btn primary coming-soon-btn" href="#coming-soon">✨ BOOKING COMING SOON</a>
   </div>
 </div>
 </section>
